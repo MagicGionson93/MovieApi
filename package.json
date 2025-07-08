@@ -1,4 +1,5 @@
 {
+  "homepage": "https://magicgionson93.github.io/MovieApi/",
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+      "deploy": "gh-pages -d dist -r https://github.com/Magicgionson93/MovieApi.git"
+
   },
   "dependencies": {
     "react": "^18.3.1",
